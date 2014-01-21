@@ -22,8 +22,5 @@ Rough Overview Algorithm
 		
 		c. if a&b don't apply to the word, place a random word from the "doge words" list infront of the word (if for looping through an array, remember to add 1 to the count)
 
-3. Given the end of a sentance add the word <strong>WOW</strong>
-
-
 
 <img src="http://ashbhat.com/wp-content/uploads/2014/01/iOS-Simulator-Screen-shot-Jan-20-2014-7.48.34-PM.png" height="568" width="320">
