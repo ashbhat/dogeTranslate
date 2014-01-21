@@ -94,7 +94,7 @@
     
     NSString * result = [[array valueForKey:@"description"] componentsJoinedByString:@" "];
     self.scrollText.text = result;
-    
+    NSLog(@"result = %@", result);
     result = [NSString stringWithFormat:@"%@... wow",result];
     AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
     AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:result];

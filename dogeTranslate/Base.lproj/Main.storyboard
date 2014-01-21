@@ -29,6 +29,9 @@
                                 <state key="normal" title="such generate">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="dogify:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DHb-lh-3em"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dogeface.png" translatesAutoresizingMaskIntoConstraints="NO" id="K8n-k1-95S">
                                 <rect key="frame" x="85" y="14" width="150" height="150"/>
